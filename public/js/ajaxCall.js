@@ -261,7 +261,7 @@ $("#update_images").submit(function (event) {
 
 // ---------------------- Product Images
 
-$("#user_verification_images").submit(function (event) {
+$("#upload_images").click(function (event) {
     event.preventDefault();
 
     var parentElement = document.getElementById('parentElement');
