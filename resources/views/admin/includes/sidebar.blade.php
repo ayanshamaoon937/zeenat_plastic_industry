@@ -15,7 +15,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link collapsed" id="productsli" href="{{ route('products') }}">
+            <a class="nav-link collapsed" id="productsli" href="{{ route('add_products') }}">
                 <i class="bi bi-gear"></i>
                 <span>Products</span>
             </a>

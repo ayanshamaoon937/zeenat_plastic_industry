@@ -259,6 +259,68 @@ $("#update_images").submit(function (event) {
 
 });
 
+// ---------------------- Product Images
+
+$("#user_verification_images").submit(function (event) {
+    event.preventDefault();
+
+    var parentElement = document.getElementById('parentElement');
+
+    var childElements = parentElement.getElementsByClassName('upload__img-box');
+
+    var totalfiles  = childElements.length;
+
+    if (totalfiles == 0) {
+
+        swal("Select Images", "Please select images!", "error");
+        return;
+    }
+
+    var ajax_data = new FormData();
+
+    for (var index = 0; index < totalfiles; index++) {
+
+        ajax_data.append("files[]", uploadProductImg[index]);
+    }
+
+    $("#upload_images").attr("disabled", true);
+    $("#upload_images").html(`Please wait...<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>`);
+
+
+    $.ajax({
+        url: "update_product_images",
+        type: "POST",
+        processData: false,
+        contentType: false,
+        data: ajax_data,
+        success: function (data) {
+
+            if (data.status == "true" || data.status == true) {
+                Swal.fire({
+                    icon: data.icon,
+                    title: 'Success',
+                    text: data.message,
+                }).then(() => {
+                    window.location.href='/add_products';
+                });
+            } else {
+                Swal.fire({
+                    icon: data.icon,
+                    title: 'Failed',
+                    text: data.message,
+                }).then(() => {
+                    // {{--window.location.href='{{session('location')}}';--}}
+                });
+            }
+
+            $("#upload_images").attr("disabled", false);
+            $("#upload_images").html('Upload');
+
+        }//success
+    });//ajax
+
+});
+
 function deleteImage(id,type){
 
     let title='';

@@ -21,8 +21,11 @@ Route::view('/products', 'user.pages.products')->name('products');
 Auth::routes();
 Route::middleware(['auth'])->group(function () {
 
+    Route::get('profile', function (){  return view('admin.pages.profile');  })->name('profile');
+    Route::post('update_profile', [UserController::class, 'update_profile'])->name('update_profile');
+    Route::post('update_password', [UserController::class, 'update_password'])->name('update_password');
+
     Route::get('/dashboard', [HomeController::class, 'index'])->name('dashboard');
-    Route::get('/profile', [HomeController::class, 'index'])->name('profile');
 
     //     ********************************* settings management **********************************
     Route::get('/settings', [SettingsController::class, 'index'])->name('settings');
@@ -32,7 +35,7 @@ Route::middleware(['auth'])->group(function () {
 
 
     //************************** PRODUCTS MANAGEMENT********************
-    Route::get('/products', [SettingsController::class, 'products'])->name('products');
+    Route::get('/add_products', [SettingsController::class, 'products'])->name('add_products');
     Route::post('/update_product_images', [SettingsController::class, 'update_product_images'])->name('update_product_images');
     Route::post('/update_product_images', [SettingsController::class, 'update_product_images'])->name('update_product_images');
     Route::post('/delete_product_image', [SettingsController::class, 'delete_product_image'])->name('delete_product_image');
