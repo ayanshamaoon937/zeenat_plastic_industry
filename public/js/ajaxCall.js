@@ -13,6 +13,7 @@ $("#update_profile").submit(function (event) {
 
     var ajax_data = new FormData();
     ajax_data.append('name', $("#name").val());
+    ajax_data.append('email', $("#email").val());
     ajax_data.append('phone', $("#phone").val());
     ajax_data.append('picture', $('#picture')[0].files[0]);
 

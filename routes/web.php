@@ -2,6 +2,7 @@
 use App\Http\Controllers\CustomLoginController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SettingsController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -16,8 +17,8 @@ Route::get('/', function (){
 
 Route::view('/about', 'user.pages.about')->name('about');
 Route::view('/contact', 'user.pages.contact')->name('contact');
-//Route::view('/products', 'user.pages.products')->name('products');
 Route::get('/products', [HomeController::class, 'products'])->name('products');
+Route::post('/contact_submit', [HomeController::class, 'contact_submit'])->name('contact_submit');
 
 Auth::routes();
 Route::middleware(['auth'])->group(function () {

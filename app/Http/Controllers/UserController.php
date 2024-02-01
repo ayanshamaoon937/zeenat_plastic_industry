@@ -29,6 +29,7 @@ class UserController extends Controller
             DB::beginTransaction();
             $user = User::findorfail($id);
             $user->name=$request->name;
+            $user->email=$request->email;
             $user->phone=$request->phone;
             $user->image_path=$pictureName;
 
