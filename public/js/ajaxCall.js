@@ -264,13 +264,13 @@ $("#update_images").submit(function (event) {
 $("#upload_images").click(function (event) {
     event.preventDefault();
 
-    var parentElement = document.getElementById('parentElement');
+    // var parentElement = document.getElementById('parentElement');
 
-    var childElements = parentElement.getElementsByClassName('upload__img-box');
+    // var childElements = parentElement.getElementsByClassName('upload__img-box');
 
-    var totalfiles  = childElements.length;
+    // var totalfiles  = childElements.length;
 
-    if (totalfiles == 0) {
+    if (    uploadProductImg.length == 0) {
 
         swal("Select Images", "Please select images!", "error");
         return;
@@ -278,7 +278,7 @@ $("#upload_images").click(function (event) {
 
     var ajax_data = new FormData();
 
-    for (var index = 0; index < totalfiles; index++) {
+    for (var index = 0; index < uploadProductImg.length; index++) {
 
         ajax_data.append("files[]", uploadProductImg[index]);
     }

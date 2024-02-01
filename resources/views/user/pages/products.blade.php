@@ -29,78 +29,12 @@
             </div>
             <div class="grid--content ">
                 <div class="column--wrapper">
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/389" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/290" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/200" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/450" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/125" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/210" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/380" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/300" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/100" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/120" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/400" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/150" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/389" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/290" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/200" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/636/450" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/125" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/210" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/380" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/636/300" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/600" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/436/120" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/400" alt="Random Image">
-                    </a>
-                    <a class="post--item" href="https://source.unsplash.com/vddccTqwal8/1500x1000" data-fancybox="group" data-caption="This image has a caption 3">
-                        <img src="https://picsum.photos/236/150" alt="Random Image">
-                    </a>
+                    @foreach($products as $product)
+                        <a class="post--item" href="{{asset($product->image_path )}}" data-fancybox="group">
+                            <img src="{{asset($product->image_path )}}" alt="Random Image">
+                        </a>
+                    @endforeach
+
                 </div>
             </div>
         </div>

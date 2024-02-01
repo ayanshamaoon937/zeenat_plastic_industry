@@ -31,7 +31,7 @@
 <script src="{{asset('admin/assets/vendor/datatables/dataTables.select.min.js')}}"></script>
 
 <script src="{{asset('admin/assets/js/main.js')}}"></script>
-<script src="{{asset('admin/assets/js/image-upload')}}"></script>
+<script src="{{asset('admin/assets/js/image-upload.js')}}"></script>
 <script src="{{asset('admin/assets/js/sweetAlert2.js')}}"></script>
 <script src="{{asset('js/ajaxCall.js')}}"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>

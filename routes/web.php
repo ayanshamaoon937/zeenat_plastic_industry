@@ -16,7 +16,8 @@ Route::get('/', function (){
 
 Route::view('/about', 'user.pages.about')->name('about');
 Route::view('/contact', 'user.pages.contact')->name('contact');
-Route::view('/products', 'user.pages.products')->name('products');
+//Route::view('/products', 'user.pages.products')->name('products');
+Route::get('/products', [HomeController::class, 'products'])->name('products');
 
 Auth::routes();
 Route::middleware(['auth'])->group(function () {

@@ -21,16 +21,18 @@
                             <label class="form-label fw-bold">Select from your Computer</label>
                             <div class="upload__box ">
                                 <div class="upload__btn-box">
-                                    <label class="custom__btn rounded btn p-2">
+                                    <label class="custom__btn rounded btn p-2 btn-dark btn px-4">
                                         <p  class="mb-0" style="font-weight: normal">
                                             <i class="fa fa-plus"></i>
                                             Add Images
                                         </p>
-                                        <input type="file" id="ad_image" multiple data-max_length="20" class="product_image upload__inputfile">
+                                        <input type="file" id="ad_image" multiple data-max_length="20" class="product_image upload__inputfile ">
                                     </label>
                                 </div>
-
                                 <div class="upload__img-wrap mt-3 ms-1"></div>
+                                <div class="text-center py-4">
+                                    <button type="button" class="btn btn-primary" id="upload_images">Submit</button>
+                                </div>
                             </div>
                         </div>
 
@@ -40,11 +42,10 @@
             </div>
         </section>
         <section class="section dashboard">
-            <section class="section dashboard">
-                <div class="row">
-                    <div class="bg-white p-3 mb-3 mb-2">
+            <div class="row mx-0 pt-4">
+                <div class="col-lg-12 ">
+                    <form class="row g-3 bg-white shadow p-3 rounded">
                         <div class="fw-bold h4 pt-4 mb-3 text-center">Available Accounts</div>
-                        <button class="btn btn-danger my-2" title="Delete All Available Accounts" onclick="deleteImage(`{{$ad_id}}`,1)">Delete All</button>
                         <div class="table-responsive">
                             <table class="table table-striped nowrap" id="myorderTable-select" style="min-height: 300px; width:100%">
                                 <thead>
@@ -76,9 +77,12 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                        <div class="text-end">
+{{--                            <button class="btn btn-danger my-2" title="Delete All Available Accounts" onclick="deleteImage('',1)">Delete All</button>--}}
+                        </div>
+                    </form>
                 </div>
-            </section>
+            </div>
         </section>
 
     </main>
