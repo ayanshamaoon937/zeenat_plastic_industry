@@ -6,7 +6,7 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{asset('user/img/carousel-1.jpg')}}" alt="Image">
+                    <img class="w-100" src="{{asset('user/img/8.jpg')}}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-start">
@@ -14,20 +14,6 @@
                                     <h1 class="display-1 text-white animated slideInRight mb-3">Innovating Plastics with {{$settings->site_name}}</h1>
                                     <p class="mb-5 animated slideInRight">Experience excellence with our cutting-edge plastic manufacturing processes. We deliver top-quality products tailored to meet your unique requirements.</p>
                                     <a href="{{route('products')}}" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="{{asset('user/img/carousel-2.jpg')}}" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-end">
-                                <div class="col-lg-7 text-end">
-                                    <h1 class="display-1 text-white animated slideInLeft mb-3">Crafting Excellence at {{$settings->site_name}}</h1>
-                                    <p class="mb-5 animated slideInLeft">Our skilled team and advanced techniques ensure precision in plastic molding, setting industry standards. Elevate your products with our expertise.</p>
-                                    <a href="{{route('products')}}" class="btn btn-primary py-3 px-5 animated slideInLeft">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -45,6 +31,7 @@
         </div>
     </div>
     <!-- Carousel End -->
+
     <!-- About Start -->
     @include('user.layouts.about')
     <!-- About End -->
@@ -75,7 +62,7 @@
                         </div>
                         <h5 class="mb-3 wow fadeIn" data-wow-delay="0.5s">Food-Grade Materials</h5>
                         <p class="mb-3 wow fadeIn" data-wow-delay="0.6s">We prioritize safety in food-related applications. Our food-grade materials meet industry standards, ensuring the utmost safety for your products in the food and beverage industry.</p>
-                        <a class="btn btn-primary py-3 px-5 wow fadeIn" data-wow-delay="0.7s" href="#">Explore More</a>
+                        <a class="btn btn-primary py-3 px-5 wow fadeIn" data-wow-delay="0.7s" href="{{route('products')}}">Explore More</a>
                     </div>
                 </div>
                 <!-- The rest of your existing content remains unchanged -->

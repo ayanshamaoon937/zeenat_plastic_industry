@@ -30,7 +30,7 @@
             <div class="grid--content ">
                 <div class="column--wrapper">
                     @foreach($products as $product)
-                        <a class="post--item" href="{{asset($product->image_path )}}" data-fancybox="group">
+                        <a class="post--item" href="{{asset($product->image_path )}}" data-fancybox="group" data-caption="{{$product->description}}">
                             <img src="{{asset($product->image_path )}}" alt="Random Image">
                         </a>
                     @endforeach

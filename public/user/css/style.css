@@ -221,10 +221,7 @@
     }
 }
 
-.page-header {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/testimonial.jpg) center center no-repeat;
-    background-size: cover;
-}
+
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--bs-white);
@@ -239,7 +236,6 @@
 
 /*** Features ***/
 .feature {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/feature.jpg) left center no-repeat;
     background-size: cover;
 }
 
@@ -492,7 +488,6 @@
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/testimonial.jpg) left center no-repeat;
     background-size: cover;
 }
 

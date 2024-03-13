@@ -8,6 +8,19 @@
     <title>@yield('pageTitle')</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('user/img/favicon/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{asset('user/img/favicon/android-chrome-192x192.png')}}">
+    <link rel="icon" type="image/png" sizes="150x150" href="{{asset('user/img/favicon/mstile-150x150.png')}}">
+    <link rel="icon" type="image/png" href="{{asset('user/img/favicon/favicon.ico')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('user/img/favicon/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('user/img/favicon/favicon-16x16.png')}}">
+    <link rel="manifest" href="{{asset('user/img/favicon/site.webmanifest')}}">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
 {{--    @if($settings->logo !="")--}}
 {{--        <link rel="icon" type="image/png" sizes="16x16" href="{{asset($settings->logo)}}">--}}
 {{--    @else--}}
@@ -35,6 +48,20 @@
     <!-- Template Stylesheet -->
     <link href="{{asset('user/css/style.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <style>
+        .feature{
+            background-size: cover !important;
+            background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url({{asset('user/img/2.jpeg')}}) left center no-repeat;
+        }
+        .testimonial {
+            background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url({{asset('user/img/4.jpg')}}) left center no-repeat;
+            background-size: cover !important;
+        }
+        .page-header {
+            background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url({{asset('user/img/2.jpeg')}}) center center no-repeat;
+            background-size: cover;
+        }
+    </style>
 
 </head>
 <body>

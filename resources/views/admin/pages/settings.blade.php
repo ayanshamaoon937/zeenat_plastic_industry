@@ -17,7 +17,7 @@
         <section class="section dashboard">
             <div class="row  mx-0">
                 <div class="col-md-6">
-                    <form class=" h-100 row g-3 bg-white shadow p-3 mb-2 rounded" id="update_website_details">
+                    <form class=" h-100 row g-3 bg-white shadow p-3 pb-5 mb-2 rounded " id="update_website_details">
                         <h3 class="text-center">Update Website Details</h3>
                         <div class="col-md-12">
                             <label for="site_name" class="form-label">Enter Site Name</label>
@@ -76,12 +76,17 @@
                     </form>
                 </div>
                 <div class="col-md-6">
-                    <form class=" h-100 row g-3 bg-white shadow p-3 mb-2 mt-2 rounded" id="update_images">
-                        <h3 class="text-center">Update About US Images</h3>
+                    <form class=" h-100 row g-3 bg-white shadow mb-2 mt-2 rounded p-3" id="update_images">
+                        <h3 class="text-center">CEO Image</h3>
                         <div class="col-md-12">
                             <label for="ceo_image" class="form-label">CEO Image</label>
                             <input type="file" required  class="form-control" id="ceo_image">
                         </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <form class=" h-100 row g-3 bg-white shadow mb-2 mt-2 rounded p-3" id="update_images">
+                        <h3 class="text-center">About Section Images</h3>
                         <div class="col-md-12">
                             <label for="about_image1" class="form-label">About Image1</label>
                             <input type="file" required class="form-control" id="about_image1">
@@ -99,6 +104,7 @@
                         </div>
                     </form>
                 </div>
+
             </div>
         </section>
 

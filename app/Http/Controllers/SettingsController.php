@@ -170,11 +170,13 @@ class SettingsController extends Controller
             if ($request->hasFile('files') ) {
                 $files = $request->file('files');
                 foreach ($files as $key => $file) {
-                    $pictureName = time() . '_' . $file->getClientOriginalName();
+                    $pictureName = $file->getClientOriginalName();
+                    $filenameWithoutExtension = pathinfo($pictureName, PATHINFO_FILENAME);
                     $file->move(public_path('uploads/products/'), $pictureName);
                     $pictureName = 'uploads/products/' . $pictureName;
 
                     Products::create([
+                        'description' => $filenameWithoutExtension,
                         'image_path' => $pictureName,
                     ]);
                 }

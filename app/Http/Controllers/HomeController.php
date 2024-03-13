@@ -34,8 +34,8 @@ class HomeController extends Controller
         public function contact_submit(Request $request){
         try {
             $settings=settings::where('id',1)->first();
-//            $recipientEmail = $settings->email;
-            $recipientEmail = "ayanshamaoon@gmail.com";
+            $recipientEmail = $settings->email;
+//            $recipientEmail = "ayanshamaoon@gmail.com";
             $subject = $request->subject;
             $message = "Hello,\n".$request->message. " .\n\nRegards,\n".$request->name."\n".$request->email."\n Thank you";
 

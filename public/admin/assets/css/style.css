@@ -1274,4 +1274,17 @@ h6 {
 .nav-link.nav-active i{
     color:#ffffff !important;
 }
+.upload__img-box {
+  padding: 0px !important;
+}
+#myorderTable-select tbody tr td img{
+ width: 100px !important;
+  height: 100px !important;
+  border-radius: 12px;
 
+}
+#myorderTable-select tbody tr td {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+
+}

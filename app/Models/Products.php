@@ -12,6 +12,7 @@ class Products extends Model
     public $timestamps=false;
     protected $fillable=[
         'id',
+        'description',
         'image_path',
     ];
 }

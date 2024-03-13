@@ -68,7 +68,7 @@
                                         <img style="height: 30px; width: 30px" src="{{asset($product->image_path ?? '')}}">
                                     </td>
                                     <td>
-                                        <a onclick="deleteImage(`<?= $product['id'] ?>`,0);" id="delete_user{{$product['id']}}" class=" m-1 btn btn-danger">Delete</a>
+                                        <a onclick="deleteImage(`<?= $product['id'] ?>`,0);" id="delete_user{{$product['id']}}" class=" m-1 btn btn-danger btn-sm"><i style="font-size: 20px !important;" class="fa fa-trash mb-0"></i></a>
                                     </td>
                                 </tr>
                                     <?php
